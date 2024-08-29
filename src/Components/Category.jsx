@@ -52,7 +52,7 @@ function Category({dropVideoResponse}) {
     // console.log(selectedCategory);
     const res = await updateCategoryAPI(categoryId, selectedCategory)
     getCategories()
-
+   
   }
   // console.log(allCategories);
   const videoDragStarted=(e,videoId,categoryId)=>{
